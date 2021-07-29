@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+h1{
+     font-family: 'Poppins', sans-serif;
+}
+
+.menu_all{
+    background-color: #264653;
+}
+
+
+
+
+
+/* Navbar */
+.navbar-nav{
+    margin-right: 450px;
+    padding: 20px;
+}
+
+.navbar-nav .btn{
+    background-color: #E76F51;
+   color: #FFFFFF !important; 
+}
+.nav-item .nav-link{
+    font-weight:500;
+    font-size: 16px;
+    color: #FFFFFF !important;
+}
+
+
+
+/* Hero Area */
+.hero_text h1{
+    color: #FFFFFF;
+}
+.hero_text p {
+    color: #E0E0E0;
+}
+.hero_text .btn{
+     background-color: #E76F51;
+      color: #FFFFFF !important;
+}
+
+/* Featured Section Styles */
+.saturate{
+    filter: saturate(0);
+}
+.clients_section h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+}
+.client{
+    border-radius: 5px;
+}
+.highlight{
+    color:#E76F51 ;
+}
+.best_bike{
+    font-weight: 600;
+    font-size: 18px;
+}
+.line_break {
+    margin: auto;
+    width: 97px;
+    height: 5px !important;
+    color: #E76F51;
+}
+
+
+/* Article Section */
+article{
+    /* border: 1px solid #DDDD; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+article h3{
+    font-size: 25px;
+    color: #18191F;
+    font-weight: 600;
+}
+article .first-btn{
+    background-color: #E76F51;
+    color:#FFFFFF !important;
+}
+article .rest_btn{
+ background-color: #FFFF;
+ color:#E77C40 !important;
+ border: 1px solid #E77C40;
+}
+
+
+
+/* Clients Section */
+.client{
+    border: 1px solid #DEDEDE;
+}
+.client_3_img{
+    height: 100px !important;
+}
+.clients_section p{
+    font-weight: 400;
+    color: #6C6C6C;
+    font-size: 18px;
+    line-height: 26px;
+}
+.client_review span{
+color: #E77C40;
+}
+
+
+/* FAQ STYLES */
+.faq_section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.faq_section h1{
+    margin-bottom: 100px;
+}
+.accordion-button:not(.collapsed) {
+    color: #383838 !important; 
+    background-color: #FFFFFF !important;
+    box-shadow: none !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+.accordion-body{
+    padding: 0 1.25rem !important;
+    font-size: 16px;
+    color:#7E848C;
+}
+.accordion-item{
+    border:1px solid #DDDD !important;
+}
+
+/* Query Section */
+.query_item {
+    /* border: 1px solid #DDDD; */
+    text-align: center;
+    background: #FFFFFF;
+    padding: 40px 0;
+     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+p.query_title {
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.query_item i {
+    font-size: 50px;
+    color: #E77C40;
+}
+
+.query_item button.btn.btn-md.btn-info {
+    width: 100px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Get in touch */
+.git_section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+      padding: 10px 30px 20px;
+    border-radius: 5px;
+}
+.git_details {
+    padding: 30px 30px;
+    background: #264653;
+    color: #FFFFFF;
+    line-height: 35px;
+}
+.git_form {
+    padding: 0 30px;
+}
+.contact_button{
+    background-color: #E76F51 !important;
+    color: #FFFFFF !important;
+}
+
+
+
+
+
+
+
+/* Footer Area Styles */
+footer{
+ font-family: 'Manrope', sans-serif;
+    background: #0B0D17;
+    padding: 50px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span.footer_menu_item {
+    padding-left: 25px;
+}
+
+.copy{
+ padding-left: 25px;
+}
